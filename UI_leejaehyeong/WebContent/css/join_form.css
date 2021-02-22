@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.joinFormDiv{
+	position: absolute;
+	width: 400px;
+	height: 1050px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	border: 1px solid #777F91;
+	background-color: white;
+	background-color: rgb(255, 255, 255, 0.9);
+	padding-top: 10px;
+}
+.inputDiv{
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 20px 0px;
+}
+.inputDiv > div:nth-child(1){
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	font-size: 20px;
+	text-align: left;
+	color: #2E2E2E;
+}
+.inputDiv select{
+	display: inline-block;
+	text-align: left;
+}
+.btnDiv{
+	padding-top: 50px;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+input[type=text], input[type=password], input[type=tel], input[type=date]{
+	font-size: 16px;
+	width: 80%;
+	height: 25px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 3px 0px 3px 10px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid #DDDDDD;
+}
+input[type=text]:focus, input[type=password]:focus,  input[type=tel]:focus, input[type=date]:focus{
+	width: 80%;
+	height: 25px;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 3px 0px 3px 10px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+select {
+	width: 65%;
+	height: 35px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 3px 0px 3px 10px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid #DDDDDD;
+}
+select:focus {
+	width: 65%;
+	height: 35px;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 3px 0px 3px 10px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+.border{
+	padding-top: 25px;
+	font-size: 18px;
+	color: #B02828;
+}
+.job{
+	display: inline-block;
+	width: 190px;	
+}
+.gender{
+	display: inline-block;
+	width: 190px;
+}
+.radio, .checkbox{
+	width: 20px;
+	height: 20px;
+}
+.hobby{
+	padding-bottom: 10px;
+}
+span{
+	padding: 0px 5px;
+	font-size: 18px;
+}
+.id-check-btn{
+	width: 350px;
+	display: inline-block;
+	text-align: right;
+	padding-top: 12px;
+}
